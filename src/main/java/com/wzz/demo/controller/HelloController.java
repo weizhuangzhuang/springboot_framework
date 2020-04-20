@@ -17,7 +17,7 @@ public class HelloController {
     }
 
     @PostMapping("/info2")
-    public void postInfo(User user , String id){
-        System.out.println(id);
+    public void postInfo(User user , String name){
+        System.out.println(name);
     }
 }

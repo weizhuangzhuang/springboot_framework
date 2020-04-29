@@ -3,8 +3,9 @@
 <mapper namespace="com.wzz.demo.mapper.UserMapper">
     <resultMap id="BaseResultMap" type="com.wzz.demo.pojo.User">
         <id column="id" jdbcType="VARCHAR" property="id"/>
+        <result column="userId" jdbcType="VARCHAR" property="userId"/>
         <result column="username" jdbcType="VARCHAR" property="username"/>
         <result column="password" jdbcType="VARCHAR" property="password"/>
-        <result column="address" jdbcType="VARCHAR" property="password"/>
+        <result column="address" jdbcType="VARCHAR" property="address"/>
     </resultMap>
 </mapper>

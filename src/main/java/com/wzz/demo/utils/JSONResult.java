@@ -26,6 +26,7 @@ public class JSONResult {
         return new JSONResult(status, msg, data);
     }
 
+
     public static JSONResult ok(Object data) {
         return new JSONResult(data);
     }
